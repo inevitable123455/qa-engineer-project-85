@@ -1,0 +1,159 @@
+---
+- summary: |
+    Проверка входа пользователя с несуществующими почтой и паролем
+  requirement: |
+    При верном вводе логине и пароля пользователь должен войти в систему
+  prerequisites: |
+   Открыта страница логина
+  test-data: |
+    Тестовые данные
+    Почта = onepeace@gmail.com  Пароль = 12345678901
+  steps:
+    - Вводим логин
+    - Вводим пароль
+    - Нажимаем кнопку «Войти»
+  expected-result: |
+    Пользователь должен получить сообщение об ошибке
+
+- summary: |
+    Авторизация через аккаунт Github
+  requirement: |
+    При существубщем аккаунте Github пользователь должен войти в систему
+  prerequisites: |
+    Открыта страница входа
+  test-data: |
+    Аккаунт на Github
+  steps:
+    - Нажимаем кнопку "Sign in with Github"
+    - Вводим логин и пароль от Github
+    - Нажимаем кнопку «Sign in»
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+    
+- summary: |
+    Авторизация через аккаунт Discord
+  requirement: |
+    При существующем аккаунте Discord пользователь должен войти в систему
+  prerequisites: |
+    Открыта страница входа
+  test-data: |
+    Акканут Discord
+  steps:
+    - Нажимаем кнопку "Sign in with Discord"
+    - Вводим логин и пароль от аккаунта Discord
+    - Нажимаем кнопку «Войти»
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+
+- summary: |
+    Просмотр лобби
+  requirement: |
+    При нажатии на кнопку "Lobby" пользователь должен увидеть список лобби
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "Lobby"
+  expected-result: |
+    Выодится список лобби
+
+- summary: |
+    Просмотр турниров
+  requirement: |
+    При нажатии на кнопку "Tournaments" пользователь должен увидеть список турниров
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "Tournaments"
+  expected-result: |
+    Выодится список турниров
+
+- summary: |
+    Просмотр истории проведённых игр
+  requirement: |
+    При нажатии на кнопку "History" пользователь должен увидеть историю проведённых игр
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "History"
+  expected-result: |
+    Выводится список проведённых игр
+
+- summary: |
+    Проверка на вход в лобби
+  requirement: |
+    При нажатии кнопки "Сражаться" пользователь должен вступить в сражение
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "Lobby"
+    - Нажимаем кнопку "Сражаться" напротив игрока, например "LovelaceLogic"
+  expected-result: |
+    Пользователь должен увидеть страницу сражения
+
+- summary: |
+    Просмотр список лидеров недели
+  requirement: |
+    При нажатии кнопки "Week" должен выводится список лидеров за неделю
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "Week"
+  expected-result: |
+    Выводится список лидеров недели
+
+- summary: |
+    Просмотр список лидеров за месяц
+  requirement: |
+    При нажатии кнопки "Month" должен выводится список лидеров за месяц
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "Month"
+  expected-result: |
+    Выводится список лидеров за месяц
+
+- summary: |
+    Просмотр общий список лидеров
+  requirement: |
+    При нажатии кнопки "All" должен выводится общий список лидеров
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - Нажимаем кнопку "All"
+  expected-result: |
+    Выводится общий список лидеров
+
+- summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+   no-data
+  test-data: |
+   no-data
+  steps:
+    - 
+  expected-result: |
+    
+
+
+
+
+
+
+
+    
