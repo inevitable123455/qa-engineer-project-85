@@ -1,0 +1,88 @@
+---
+- summary: |
+    Проверка входа пользователя с несуществующими почтой и паролем
+  status: pass
+
+- summary: |
+    Авторизация через аккаунт Github
+  status: pass
+
+- summary: |
+    Авторизация через аккаунт Discord
+  status: pass
+
+- summary: |
+    Просмотр лобби
+  status: pass
+
+- summary: |
+    Просмотр турниров
+  status: pass
+
+- summary: |
+    Просмотр истории проведённых игр
+  status: pass
+
+- summary: |
+    Проверка на вход в лобби
+  status: pass
+
+- summary: |
+    Просмотр список лидеров недели
+  status: pass
+
+- summary: |
+    Просмотр список лидеров за месяц
+  status: pass
+
+- summary: |
+    Просмотр общий список лидеров
+  status: pass
+
+- summary: |
+    Создание игры
+  status: pass
+
+- summary: |
+    Проверка возврата на главную страницу после окончания сражения
+  status: pass
+
+- summary: |
+    Проверка кнопки "rematch"
+  status: pass
+
+- summary: |
+    Проверка кнопки "Give up"
+  status: pass
+
+- summary: |
+    Проверка кнопки "Сбросить решение"
+  status: pass
+
+- summary: |
+    проверка кнопки "Запустить"
+  status: pass
+
+- summary: |
+    Мобильная версия
+  status: fail
+
+- summary: |
+    Отправка сообщения в чат
+  status: pass
+
+- summary: |
+    Отправка приглашения в игру
+  status: pass
+
+- summary: |
+    Просмотр личной статистики
+  status: pass
+
+- summary: |
+    Изменение никнейма
+  status: pass
+
+- summary: |
+    Изменение настройки "Select sound type"
+  status: fail
