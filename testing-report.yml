@@ -76,6 +76,14 @@
   status: pass
 
 - summary: |
+    Принятие приглашения на матч
+  status: pass
+
+- summary: |
+    Отклонение приглашения на матч
+  status: pass
+  
+- summary: |
     Просмотр личной статистики
   status: pass
 
