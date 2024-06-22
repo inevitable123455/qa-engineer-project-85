@@ -49,7 +49,7 @@
 
 - summary: |
     Проверка кнопки "rematch"
-  status: pass
+  status: fail
 
 - summary: |
     Проверка кнопки "Give up"
