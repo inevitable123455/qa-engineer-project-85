@@ -1,6 +1,14 @@
 ---
 - summary: |
-    Проверка входа пользователя с несуществующими почтой и паролем
+    Проверка регистрации пользователя
+  status: pass
+
+- summary: |
+    успешная авторизация по email
+  status: pass
+
+- summary: |
+    Проверка авторизации незарегистрированного пользователя
   status: pass
 
 - summary: |
@@ -12,19 +20,11 @@
   status: pass
 
 - summary: |
-    Просмотр лобби
-  status: pass
-
-- summary: |
-    Просмотр турниров
-  status: pass
-
-- summary: |
     Просмотр истории проведённых игр
   status: pass
 
 - summary: |
-    Проверка на вход в лобби
+    Проверка начала игры при клике Сражаться в лобби
   status: pass
 
 - summary: |
@@ -40,7 +40,7 @@
   status: pass
 
 - summary: |
-    Создание игры
+    Создание игры с ботом
   status: pass
 
 - summary: |
@@ -60,11 +60,11 @@
   status: pass
 
 - summary: |
-    проверка кнопки "Запустить"
+    Проверка решения в активной игре
   status: pass
 
 - summary: |
-    Мобильная версия
+    проверка мобильной версии
   status: fail
 
 - summary: |
